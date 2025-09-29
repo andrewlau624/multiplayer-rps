@@ -8,7 +8,7 @@ body {
 
     background: 
         linear-gradient(rgba(255, 255, 255, 0.75), rgba(255, 255, 255, 0.75)),
-        url("../assets/roommates.png");
+        url("/assets/roommates.png");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
