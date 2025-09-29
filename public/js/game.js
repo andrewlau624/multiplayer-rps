@@ -64,7 +64,7 @@ socket.on("gameResult", ({ p1, p2 }) => {
   } else if ((diff > 0 && diff !== 2) || diff === -2) {
     document.getElementById(
       "status"
-    ).innerHTML = `You <b>lose</b>! You chose <b>${
+    ).innerHTML = `You <b>win</b>! You chose <b>${
       choiceMap[player.choice]
     }</b> and ${opponent.username} chose <b>${
       choiceMap[opponent.choice]
